@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Portals_Config>
+<Portal>
+<Name>KHS</Name>
+<Status>Active</Status>
+<Runjobpath>E:\Pratibha\Rexnord\Portal_Automation</Runjobpath>
+<Destination_Dir>E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS</Destination_Dir>
+</Portal>
+<Portal>
+<Name>Krones</Name>
+<Status>InActive</Status>
+<Runjobpath>E:\Pratibha\Rexnord\Portal_Automationn</Runjobpath>
+<Destination_Dir>E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\Krones</Destination_Dir>
+</Portal>
+</Portals_Config>

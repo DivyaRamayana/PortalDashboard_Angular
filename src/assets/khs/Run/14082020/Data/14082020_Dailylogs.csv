@@ -1,0 +1,4 @@
+Portal,Date,Time,Download Status,Customer PO Number,Directory path,SAP Order number,Order confirm Date,Processing Status,Comments,null
+KHS,14082020,1335,Success,0045196634.pd,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\14082020\Data\KHS_14082020_1335_ZMEOORD49_0045196634.pdf.crdownload,,,Pending,NA,['']
+
+KHS,14082020,1344,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\14082020\Data\KHS_14082020_1344_ZMEOORD49_0045196634.pdf,,,Pending,NA,

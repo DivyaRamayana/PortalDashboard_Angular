@@ -1,0 +1,70 @@
+/* .btn{
+    width:215px;
+} */
+body {
+    background-color: #2f353a !important;
+    color:#e4e7ea;
+    /* color:#fff; */
+}
+.calendar{
+background-color: #2f353a;
+padding:5px;
+border-left:2px solid #000;
+}
+
+/* .result tr:first-child{
+    font-weight: bold;
+} */
+/* .result{
+    min-height: 400px;
+    overflow-y: auto;
+} */
+.result table{
+    font-size: 14px;
+}
+.fa.fa-check{
+    color:#fff;
+}
+input,textarea{
+    background: #2a353a;
+    border: 1px solid #51585e;
+    color:#fff;
+    line-height: 2.7;
+    width:100%;
+}
+header, section{
+    background-color: #3a4149;
+    color:#fff;
+    padding:15px;
+    margin:15px;
+}
+.main .form-control{
+background-color: #2f353a;
+border-color:#2f353a;
+color:#fff;
+
+}
+.modal-dialog {
+    max-width: 600px !important}
+/* .result-response{
+    min-height:500px;
+    overflow: auto;
+} */
+
+.angular-with-newlines {
+    white-space: pre-wrap;
+}
+ngb-datepicker{
+    transform: initial !important;
+}
+.page-link{
+    background-color: #2f353a;
+    border-color:#4e4f50;
+    color:#fff;
+    
+}
+.page-item.disabled .page-link{
+    background-color: #2f353a;
+    border-color:#4e4f50;
+    color:#fff;
+}

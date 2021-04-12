@@ -1,0 +1,4 @@
+Portal,Date,Time,Download Status,Customer PO Number,Directory path,SAP Order number,Order confirm Date,Processing Status,Comments
+KHS,2082020,1213,Success,4519016,E:\Test_Portal_Automation\KHS\Run\02082020\Data\KHS_04082020_1213_ZMEOORD49_0045190160.pdf,12345456788,03082020,Pending ,NO Comments
+KHS,2082020,1214,Success,4519016,E:\Test_Portal_Automation\KHS\Run\02082020\Data\KHS_04082020_1214_ZMEOORD49_0045190160.pdf,,,Pending,NA
+KHS,2082020,1217,Success,4519016,E:\Test_Portal_Automation\KHS\Run\02082020\Data\KHS_04082020_1217_ZMEOORD49_0045190160.pdf,,,Pending,NA

@@ -1,0 +1,7 @@
+2020-08-01 18:19:58,814 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-01 18:20:14,802 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-01 18:20:20,310 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-01 18:20:20,713 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045192826
+2020-08-01 18:20:22,978 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045190160
+2020-08-01 18:20:25,225 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045185866
+2020-08-01 18:20:31,290 [main] INFO  KHSPortal_Automation  - Job Ended

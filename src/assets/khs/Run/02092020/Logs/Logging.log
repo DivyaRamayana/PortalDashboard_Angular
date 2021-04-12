@@ -1,0 +1,24 @@
+2020-09-02 12:26:17,701 [main] INFO  KHSPortal_Automation  - Job Started
+2020-09-02 12:26:35,360 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-09-02 12:26:40,476 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-09-02 12:26:41,633 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205542
+2020-09-02 12:26:44,073 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205411
+2020-09-02 12:26:46,492 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-09-02 12:26:48,869 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-09-02 12:27:03,231 [main] INFO  KHSPortal_Automation  - Job Ended
+2020-09-02 12:34:23,439 [main] INFO  KHSPortal_Automation  - Job Started
+2020-09-02 12:34:42,442 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-09-02 12:34:46,228 [main] INFO  KHSPortal_Automation  - Job Started
+2020-09-02 12:34:47,462 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-09-02 12:34:48,235 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205542
+2020-09-02 12:34:50,532 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205411
+2020-09-02 12:34:52,815 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-09-02 12:34:55,128 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-09-02 12:35:01,929 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-09-02 12:35:04,852 [main] INFO  KHSPortal_Automation  - Job Ended
+2020-09-02 12:35:07,209 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-09-02 12:35:08,049 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205542
+2020-09-02 12:35:10,457 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045205411
+2020-09-02 12:35:12,854 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-09-02 12:35:15,209 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-09-02 12:35:27,122 [main] INFO  KHSPortal_Automation  - Job Ended

@@ -1,0 +1,221 @@
+<ngx-ui-loader></ngx-ui-loader>
+<div class="container-fluid main">
+
+    <header>
+        <h3>Portal Automation Dashboard </h3>
+    </header>
+  
+    <section class="filter">
+        <form action="">
+            <div class="row">
+                <div class="col-md-4 mt-2">
+                    <label>Portal:</label>&nbsp;
+                    <select class="form-control" ngDefaultControl [(ngModel)]="portal" name="portal" id="" [value]="pipeFilter"
+                        (input)="pipeFilter = $event.target.value">
+                        <!-- <option value="-">-</option> -->
+                        <option  *ngFor="let r of xmlItems;" (value)="r.name">{{r.name}}</option>
+                        <!-- <option value="Krones">Krones</option> -->
+                    </select>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <label>Date:</label>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="DD-MM-YYYY" ngbDatepicker #d="ngbDatepicker"
+                                [startDate]="fromDate!" [(ngModel)]="fromDate" name="fromDate"
+                                [maxDate]="maxDates">
+                            <div class="input-group-append">
+                                <div class="calendar" (click)="d.toggle()"><img src="./assets/img/calendar.png"
+                                        style="width: 1.2rem; height: 1rem; cursor: pointer;" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4 mt-2">
+                    <label>TO Date:</label>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" placeholder="DD-MM-YYYY" ngbDatepicker #d="ngbDatepicker"
+                                [startDate]="toDate!" [(ngModel)]="toDate" name="toDate">
+                            <div class="input-group-append">
+                                <div class="calendar" (click)="d.toggle()"><img src="./assets/img/calendar.png"
+                                        style="width: 1.2rem; height: 1rem; cursor: pointer;" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-4 mt-2">
+                    <label>Time </label>&nbsp;
+                    <select class="form-control" [(ngModel)]="time" name="time">
+                        <option>-</option>
+                        <option value="01">01:00:00 AM</option>
+                        <option value="02">02:00:00 AM</option>
+                        <option value="03">03:00:00 AM</option>
+                        <option value="04">04:00:00 AM</option>
+                        <option value="05">05:00:00 AM</option>
+                        <option value="06">06:00:00 AM</option>
+                        <option value="07">07:00:00 AM</option>
+                        <option value="08">08:00:00 AM</option>
+                        <option value="09">09:00:00 AM</option>
+                        <option value="10">10:00:00 AM</option>
+                        <option value="11">11:00:00 AM</option>
+                        <option value="12">12:00:00 PM</option>
+                        <option value="13">13:00:00 PM</option>
+                        <option value="14">14:00:00 PM</option>
+                        <option value="15">15:00:00 PM</option>
+                        <option value="16">16:00:00 PM</option>
+                        <option value="17">17:00:00 PM</option>
+                        <option value="18">18:00:00 PM</option>
+                        <option value="19">19:00:00 PM</option>
+                        <option value="20">20:00:00 PM</option>
+                        <option value="21">21:00:00 PM</option>
+                        <option value="22">22:00:00 PM</option>
+                        <option value="23">23:00:00 PM</option>
+                        <option value="24">24:00:00 PM</option>
+                    </select>
+                </div> 
+                <div class="col-md-12 text-center mt-3">
+                    <button class="btn btn-secondary" (click)="getCsvs()">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="controls">
+        <div class="row">
+            <div class="col-md-4" [(ngModel)]="portal"><b>Portal : {{portal}} </b> </div>
+            <div class="col-md-4"><b>Order Downloaded : {{csvData.length}}</b></div>
+            <div class="col-offset-md-4 col-md-4"><b> Status : {{status}} </b>  </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4 col-sm-4 mb-1">
+                <button type="button" class="btn btn-secondary btn-block" (click)="manualRun()"> Manual Run</button>
+                <!-- <input type="button" value=" Manual Run" (click)="window.open(callBatFile)" />  -->
+            </div>
+            <div class="col-md-4 col-sm-4 mb-1">
+                <button type="button" class="btn btn-secondary btn-block " (click)="open(mymodal)" >Daily Log</button>
+            </div>
+            <div class="col-md-4 col-sm-4 mb-1">
+                <button type="button" class="btn btn-secondary btn-block" disabled>Config</button>
+            </div>
+
+        </div>
+    </section>
+    <section class="result">
+        <div class="table-responsive">
+            <table class="table table-dark table-bordered">
+                <thead class="text-center">
+                    <tr>
+                        <!-- <th>Sr No.</th> -->
+                        <th>#</th>
+                        <th>Portal</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Download Status</th>
+                        <th>Customer PO No.</th>
+                        <th>Directory path</th>
+                        <th>SAP Order No.</th>
+                        <th>Confirm Date</th>
+                        <th>Comments</th>
+                        <th>Processing Status</th>
+                        <th>Update CSV</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Portal": "KHS",
+                    "Date": "10062020",
+                    "Time": "1212",
+                    "Status": "Success",
+                    "Customer PO Number": "004517955",
+                    "Directory path": "E:\\Test_Portal_Automation\\KHS\\Run\\10062020\\Data\\KHS_10062020_1212_ZMEOORD49_0045179553.pdf",
+                    "SAP Order number": "",
+                    "Order confirm Date": "",
+                    "Processing Status": "UnProcessed",
+                    "Comments": "NA",
+                    "mm": "['']",
+                    "test": -->
+
+                    <tr *ngFor="let r of csvData  | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize;  let i = index">
+                        <td>{{(page*pageSize) + i+1-pageSize}}</td>
+                        <td>{{r.Portal}}</td>
+                        <td>{{r.Date }}</td>
+                        <td>{{r.Time }}</td>
+                        <td>{{r["Download Status"]}}</td>
+                        <td>{{r["Customer PO Number"]}}</td>
+                        <td>
+                            <a [href]="getInvoiceUrl(r['Directory path'])" target="_blank"> Download File</a>
+                            <!-- <a  (click)="getInvoiceUrl(r['Directory path'])" target="_blank"> Download PDF</a> -->
+                            <!-- <button type="button" class="btn btn-primary btn-block " (click)="getInvoiceUrl(r['Directory path'])" >Download PDF</button> -->
+                        </td>
+                        <td>
+                            <div *ngIf="r.edit">
+                                <input type="text" [(ngModel)]="r['SAP Order number']">
+                            </div>                                
+                            <div  *ngIf="!r.edit">
+                                {{r['SAP Order number']}}
+                            </div>
+
+                           
+                            <!-- <button class="btn btn-sm btn-secondary m-1">save<i class="fa fa-check"></i></button> -->
+                        </td>
+                        <td style="width: 13%;">
+                            <!-- <input type="text" [(ngModel)]="r.OrderConfirmDate"> -->
+                            <!-- <div class="form-group" > -->
+                                <div class="input-group"  *ngIf="r.edit">
+                                    <input class="form-control" placeholder="DD-MM-YYYY" ngbDatepicker #d="ngbDatepicker"
+                                          name="fromDate"  [(ngModel)]="r['confirm_Date']" >
+                                    <div class="input-group-append">
+                                        <div class="calendar" (click)="d.toggle()"><img src="./assets/img/calendar.png"
+                                                style="width: 1.2rem; height: 1rem; cursor: pointer;" /></div>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                            <div  *ngIf="!r.edit">
+                                {{r['Order confirm Date']}}
+                            </div>
+                        </td>
+                        <td>
+                            <div *ngIf="r.edit">
+                                <textarea type="text" [(ngModel)]="r['Comments']"></textarea>
+                            </div>                                
+                            <div  *ngIf="!r.edit">
+                                {{r['Comments']}}
+                            </div>
+                        <td> 
+                            
+                            <div *ngIf="r.edit">
+                                <input type="text" [(ngModel)]="r['Processing Status']">
+                            </div>                                
+                            <div  *ngIf="!r.edit">
+                                {{r['Processing Status']}}
+                            </div>
+                            
+            
+                        <td> 
+                            <button *ngIf="!r.edit" class="btn btn-sm btn-secondary m-1" (click)="r['edit']= true">edit<i class="fa fa-check"></i></button> 
+                            <button *ngIf="r.edit" class="btn btn-sm btn-secondary m-1" (click)="r['edit']=false; saveData()">save<i class="fa fa-check"></i></button> 
+                            <button class="btn btn-sm btn-secondary m-1" (click)="onClear()">clear<i class="fa fa-check"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+        <div></div>
+        <ngb-pagination (pageChange)="p = $event;" [(collectionSize)]="csvData.length"   [pageSize]="15"  [(page)]="page" [maxSize]="5" [boundaryLinks]="true"></ngb-pagination>
+        </div>
+    </section>
+</div>
+
+<ng-template #mymodal let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title"> Daily Logs</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <div class="modal-body" style="height:400px; overflow-y: scroll;">
+       <p class="angular-with-newlines">{{modallogdata}}</p> 
+
+    </div>
+
+</ng-template>

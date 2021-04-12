@@ -1,0 +1,14 @@
+.container-fluid{
+    background-color: #0072bc!important;
+    color:#000;
+
+}
+.header{
+    padding:15px 0px;
+    background-color: #0072bc;
+    color:#fff;
+}
+.modal-content {
+    background-color: #FFF !important;
+    color:#000 !important;
+}

@@ -1,0 +1,12 @@
+2020-08-07 12:47:27,642 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-07 12:48:08,578 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-07 12:48:18,484 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-07 12:48:19,596 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045196634
+2020-08-07 12:48:22,072 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045196203
+2020-08-07 12:48:31,580 [main] INFO  KHSPortal_Automation  - Job Ended
+2020-08-07 12:52:54,796 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-07 12:53:15,889 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-07 12:53:23,661 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-07 12:53:24,504 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045196634
+2020-08-07 12:53:26,907 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045196203
+2020-08-07 12:53:34,148 [main] INFO  KHSPortal_Automation  - Job Ended

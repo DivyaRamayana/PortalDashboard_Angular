@@ -1,0 +1,6 @@
+Portal,Date,Time,Download Status,Customer PO Number,Directory path,SAP Order number,Order confirm Date,Processing Status,Comments,null
+KHS,09082020,1644,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\10082020\Data\KHS_10082020_1644_ZMEOORD49_0045196203.pdf,123445767,12082020,Pending ,NA ,['']
+KHS,09082020,1644,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\10082020\Data\KHS_10082020_1644_ZMEOORD49_0045196634.pdf,,,Pending,NA,['']
+KHS,09082020,1644,Success,004519747,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\10082020\Data\KHS_10082020_1644_ZMEOORD49_0045197473.pdf,,,Pending,NA,['']
+KHS,09082020,1731,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\10082020\Data\KHS_10082020_1731_ZMEOORD49_0045196203.pdf,,,Pending,NA,
+KHS,09082020,1731,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\10082020\Data\KHS_10082020_1731_ZMEOORD49_0045196634.pdf,,,Pending,NA,

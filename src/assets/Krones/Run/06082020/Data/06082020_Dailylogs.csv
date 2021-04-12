@@ -1,0 +1,16 @@
+Portal,Date,Time,Download Status,Customer PO Number,Directory path,SAP Order number,Order confirm Date,Processing Status,Comments,null
+KHS,06082020,1050,Success,004519016,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1050_ZMEOORD49_0045190160.pdf,123445678,07062020,Pending ,NA,['']
+KHS,06082020,1054,Success,004519016,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1054_ZMEOORD49_0045190160.pdf,434575734678,07082020,completed,new Test1,['']
+KHS,06082020,1102,Success,004519016,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1102_ZMEOORD49_0045190160.pdf,,,Pending,NA,['']
+KHS,06082020,1404,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1404_ZMEOORD49_0045196203.pdf,,,Pending,NA,
+KHS,06082020,1404,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1404_ZMEOORD49_0045196634.pdf,,,Pending,NA,
+KHS,06082020,1711,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1711_ZMEOORD49_0045196203.pdf,,,Pending,NA,
+KHS,06082020,1711,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1711_ZMEOORD49_0045196634.pdf,,,Pending,NA,
+KHS,06082020,1725,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1725_ZMEOORD49_0045196203.pdf,,,Pending,NA,
+KHS,06082020,1725,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1725_ZMEOORD49_0045196634.pdf,,,Pending,NA,
+KHS,06082020,1725,Success,004519693,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1725_ZMEOORD49_0045196934.pdf,,,Pending,NA,
+KHS,06082020,1725,Success,004519695,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1725_ZMEOORD49_0045196951.pdf,,,Pending,NA,
+KHS,06082020,1733,Success,004519620,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1733_ZMEOORD49_0045196203.pdf,,,Pending,NA,
+KHS,06082020,1733,Success,004519663,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1733_ZMEOORD49_0045196634.pdf,,,Pending,NA,
+KHS,06082020,1733,Success,004519693,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1733_ZMEOORD49_0045196934.pdf,,,Pending,NA,
+KHS,06082020,1733,Success,004519695,E:\Pratibha\Rexnord\Rexnord Automation-Ui\src\assets\KHS\Run\06082020\Data\KHS_06082020_1733_ZMEOORD49_0045196951.pdf,,,Pending,NA,

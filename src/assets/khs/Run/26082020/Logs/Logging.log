@@ -1,0 +1,31 @@
+2020-08-26 10:50:37,575 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-26 10:50:56,002 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-26 10:51:03,390 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-26 10:51:04,858 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202686
+2020-08-26 10:51:12,207 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202685
+2020-08-26 10:51:19,612 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-08-26 10:51:26,975 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-08-26 10:51:34,322 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045197976
+2020-08-26 10:51:41,532 [main] INFO  KHSPortal_Automation  - Job Ended
+2020-08-26 10:57:47,545 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-26 10:58:05,036 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-26 10:58:10,947 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-26 10:58:11,906 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202686
+2020-08-26 10:58:14,319 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202685
+2020-08-26 10:58:16,772 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-08-26 10:58:19,153 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-08-26 10:58:21,608 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045197976
+2020-08-26 10:58:38,921 [main] INFO  KHSPortal_Automation  - Job Ended
+2020-08-26 21:38:07,009 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-26 21:38:29,728 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-26 21:38:34,190 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-26 21:38:35,262 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-08-26 21:38:37,582 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-08-26 21:38:39,937 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045197976
+2020-08-26 22:37:55,387 [main] INFO  KHSPortal_Automation  - Job Started
+2020-08-26 22:38:17,204 [main] INFO  KHSPortal_Automation  - Login Successfull
+2020-08-26 22:38:21,706 [main] INFO  KHSPortal_Automation  - Order listing Sussessfull
+2020-08-26 22:38:22,878 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045202069
+2020-08-26 22:38:25,200 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045201028
+2020-08-26 22:38:27,638 [main] INFO  KHSPortal_Automation  - Order downloaded: 0045197976
+2020-08-26 22:38:37,289 [main] INFO  KHSPortal_Automation  - Job Ended

@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+ 
+ 
+/* @import '~ngx-toastr/toastr-bs4-alert'; */
+ 
+
+/* @import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~ngx-toastr/toastr-bs4-alert'; */
+
+body{
+    background-color: #2f353a!important;
+    /* color:#e4e7ea; */
+}
+/* header, section{
+    background-color: #3a4149;
+    color:#fff;
+    padding:15px;
+    margin:15px;
+} */
+.main .form-control{
+background-color: #2f353a;
+border-color:#2f353a;
+color:#fff;
+
+}
+
+
+.modal-content {
+    background-color: #2f353a !important;
+    color:#fff !important;
+}
+.modal-header .close {
+    padding: .5em;
+    margin: -1rem -1rem -1rem auto;
+    /* color: #fff; */
+}
+.modal-dialog {
+    max-width: 750px !important;}
